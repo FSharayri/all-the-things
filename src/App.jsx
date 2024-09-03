@@ -61,7 +61,12 @@ const App = () => {
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ]
-
+  const naThing = [
+    {
+      name: "app",
+      attributes: ["red", "yumy"]
+    }
+  ]
   return (
     <Routes>
       {/* All the <Route> components should live here */}
