@@ -69,6 +69,7 @@ const App = () => {
   ]
   return (
     <Routes>
+    <h1>hello world</h1>
       {/* All the <Route> components should live here */}
       <Route path="/" element={<Landing />} />
       <Route
